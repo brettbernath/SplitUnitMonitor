@@ -1,0 +1,7 @@
+Initial import of a hobby project that uses the SAMD21G Board from Sparkfun to control a Split Unit from Mitsuibishi and Daikon.
+The SAMD21G interfaces with 3 external compontents: 
+1 - an IR receiver ... The IR receiver and associated software will be used to reverse engineer the IR codes and protocols used to
+control the Split Unit.  The IR receiver driver uses a GPIO pin configured as a EXTINT channel.  The GPIO pin generates rising and
+falling edge interrupts.  A timer is used to measure the duration of the low and high intervals.
+2 - An IR transmitter (diode) - The diode is connected to a GPIO pin and pulse width modulated at 38 kHz using timing information
+obtained using the IR receiver.
