@@ -1,3 +1,4 @@
+11/2018
 Initial import of a hobby project that uses the SAMD21G Board from Sparkfun to control a Split Unit from Mitsuibishi and Daikon.
 The SAMD21G interfaces with 3 external compontents: 
 1 - an IR receiver ... The IR receiver and associated software will be used to reverse engineer the IR codes and protocols used to
